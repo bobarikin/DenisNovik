@@ -1,0 +1,21 @@
+/* PORTFOLOI */
+
+.portfolio {
+    text-align: center;
+    padding-top: 113px;
+}
+
+.portfolio__items {
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio__items  h3 {
+    margin: 43px 0 99px;
+}
+
+.portfolio__items  h3 a {
+    color: var(--primary-text-color);
+    text-decoration: underline;
+}

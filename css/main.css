@@ -1,0 +1,55 @@
+@import url("./reset.css");
+@import url("./header.css");
+@import url("./fonts.css");
+@import url("./about.css");
+@import url("./skills.css");
+@import url("./portfolio.css");
+@import url("./footer.css");
+
+body {
+  font-family: var(--primary-font);
+  background: var(--primary-bcg-color);
+  color: var(--primary-text-color);
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  box-sizing: content-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+img {
+  display: block;
+}
+
+.all-text {
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+/* VARS */
+
+:root {
+  --primary-bcg-color: rgba(246, 246, 246, 1);
+  --secondary-bcg-color: rgba(255, 255, 255, 1);
+
+  --primary-text-color: rgba(7, 7, 7, 1);
+  --secondary-text-color: rgba(130, 130, 130, 1);
+
+  --primary-font: "Gilroy-Bold", Arial, Helvetica, sans-serif;
+  --secondary-font: "Gilroy-Medium", Arial, Helvetica, sans-serif;
+
+  --transition: 0.3s;
+}

@@ -1,0 +1,15 @@
+/* ABOUT */
+
+.about {
+    padding: 120px 0 107px;
+    text-align: center;
+  }
+  
+  .about__content {
+    margin: 18px auto 0;
+    width: 485px;
+    height: 218px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
